@@ -32,14 +32,16 @@ export class MyChartComponent implements  OnInit {
               label: 'My First Dataset',
               data: [65, 59, 90, 81, 56, 55, 40 , 50 , 60 , 70 , 70 , 70  ],
               fill: true,
-              backgroundColor: 'rgba(255, 99, 132, 0.2)',
-              borderColor: 'rgb(255, 99, 132)',
+              backgroundColor: '#00cbc15e',
+              borderColor: '#00CBC0',
               pointBackgroundColor: 'rgb(255, 99, 132)',
               pointBorderColor: '#fff',
               pointHoverBackgroundColor: '#fff',
               pointHoverBorderColor: 'rgb(255, 99, 132)',
               tension: 0.4,
               pointRadius: 0,
+              borderWidth: 1,
+
 
             }, {
               label: 'My Second Dataset',
@@ -53,6 +55,7 @@ export class MyChartComponent implements  OnInit {
               pointHoverBorderColor: 'rgb(54, 162, 235)',
               tension: 0.4,
               pointRadius: 0,
+              borderWidth: 1,
 
             }]
           },
