@@ -30,7 +30,7 @@ export class MyChartComponent implements  OnInit {
             labels: this.timeArray,
             datasets: [{
               label: 'My First Dataset',
-              data: [65, 59, 90, 81, 56, 55, 40 , 50 , 60 , 70 , 70 , 70  ],
+              data: [90, 59, 90, 81, 56, 90, 40 , 50 , 60 , 70 , 80 , 70  ],
               fill: true,
               backgroundColor: '#00cbc15e',
               borderColor: '#00CBC0',
@@ -45,7 +45,7 @@ export class MyChartComponent implements  OnInit {
 
             }, {
               label: 'My Second Dataset',
-              data: [28, 48, 40, 19, 96, 27 , 28, 48, 40, 19, 96, 90],
+              data: [65, 59, 90, 81, 56, 55, 40, 90 , 40, 50, 96, 90],
               fill: true,
               backgroundColor: 'rgba(54, 162, 235, 0.2)',
               borderColor: 'rgb(54, 162, 235)',
