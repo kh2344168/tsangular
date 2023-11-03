@@ -2,11 +2,10 @@
 .my-chart{
   font-size: 11px;
   background-color: white;
-  width: 92%;
-  padding: 20px;
+  width: 100%;
   border-radius: 25px;
   display: grid;
-  gap: 50px;
+  gap: 15px;
   color: var(--font-color);
   margin-top: 40px;
 }
@@ -16,6 +15,8 @@
   grid-template-columns: 60% 40%;
   border-bottom: 1px solid rgb(211, 211, 211);
   font-weight: 500;
+  padding: 20px;
+  padding-bottom: 0;
 
 }
 .my-chart .chart-bar-items {
@@ -35,4 +36,5 @@
 .my-chart .chart-cont{
   display: grid;
     justify-items: center;
+    padding: 20px;
 }

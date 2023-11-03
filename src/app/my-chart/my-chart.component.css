@@ -43,3 +43,14 @@
   background-color: var(--main-color);
   color: #00cbc15e;
 }
+.chart-item.nm .number   {
+  color: #B9CDE2;
+  font-size: 20px;
+  text-align: right;
+}
+.chart-item.nm .number .num  {
+  font-size: 20px;
+}
+.chart-item.nm   .bar {
+  background-color: #B9CDE2;
+}
