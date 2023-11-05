@@ -128,7 +128,8 @@ ul {
   border-bottom-left-radius: 0;
   display: inline-flex;
   align-items: baseline;
-  padding: 0 5px !important;
+  padding: 0 20px !important;
+  padding-left: 0 !important;
   position: relative;
   box-sizing: border-box;
   overflow: hidden;
@@ -153,7 +154,7 @@ ul {
 element.style {
 }
 .mat-mdc-icon-button.mat-mdc-button-base {
-    --mdc-icon-button-state-layer-size: 13px;
+    --mdc-icon-button-state-layer-size: 0;
     width: var(--mdc-icon-button-state-layer-size);
     height: var(--mdc-icon-button-state-layer-size);
     padding: 0px;
