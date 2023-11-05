@@ -28,10 +28,14 @@
 }
 .my-chart .chart-bar-items span {
   height: 100%;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+
 }
-.my-chart .chart-bar-items span:first-child {
-  color:var(--main-color);
+.my-chart .chart-bar-items span:first-child , .my-chart .chart-bar-items span:hover  {
   border-bottom: 2px solid var(--main-color);
+  color:var(--main-color);
+  transition: .3s ;
 }
 .my-chart .chart-cont{
   display: grid;
