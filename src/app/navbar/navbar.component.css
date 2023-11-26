@@ -31,7 +31,7 @@ ul li:hover {
 }
 ul li .nav-icon{
   width: 1.7rem;
-  
+
 }
 .item-bottom .nav-icon{
   width: 2rem;
@@ -39,3 +39,17 @@ ul li .nav-icon{
 }
 
 
+.one .a {
+  fill: none;
+  stroke: #a31818;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 3px;
+}
+.two .a {
+  fill: none;
+  stroke: red; /* Change the stroke color here */
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 3px;
+}

@@ -42,9 +42,9 @@ import { AppRoutingModule } from './app-routing.module';
     MyChartComponent,
     GraphListComponent,
     ListComponent,
-    BarchartComponent, 
-     
-      
+    BarchartComponent,
+
+
   ],
   imports: [
     BrowserModule,
@@ -60,7 +60,7 @@ import { AppRoutingModule } from './app-routing.module';
     NgChartsModule,
     AppRoutingModule,
 
-    
+
   ],
   providers: [],
   bootstrap: [AppComponent]
