@@ -45,11 +45,8 @@ export class ListComponent  {
   @HostListener('document:click', ['$event'])
   clickout(event: MouseEvent) {
     if (this.txt && this.txt.nativeElement.contains(event.target)) {
-      console.log('click inside txt');
     } else if (this.btns.some(btn => btn.nativeElement.contains(event.target))) {
-      console.log('click on button');
     } else {
-      console.log('click outside');
       this.myObjects.forEach(item => {
         item.show = false;
       });
@@ -61,7 +58,7 @@ export class ListComponent  {
     });
     item.show = !item.show;
   }
-  
+
   checklistItems: ChecklistItem[] = [
     { name: 'Total sales', checked: true },
     { name: 'Max transaction count per hour', checked: false },

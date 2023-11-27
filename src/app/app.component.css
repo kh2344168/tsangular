@@ -1,4 +1,6 @@
 
+@import '@fortawesome/fontawesome-free/css/all.css';
+
 :root {
   --main-color: #FF7F5C;
   --main-color-sec: #F4DBD4;
@@ -6,8 +8,9 @@
   --secondary-color: #6c757d;
   --font-color: #3D5161;
   --rete-up: #00CBC0;
-  
+
 }
+
 .container-navbar{
   height: 100%;
 }
@@ -20,7 +23,7 @@ body{
 ul {
   list-style: none;
   padding: 0;
-  
+
 }
 .content{
   position: relative;
@@ -36,7 +39,7 @@ ul {
   display: grid;
   grid-template-columns: 71% 29%;
 }
-.app-content .app-item{ 
+.app-content .app-item{
   margin-left: 150px;
 }
 .app-content > .app-items{
@@ -56,19 +59,19 @@ ul {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--main-color); 
+  background: var(--main-color);
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--main-color); 
+  background: var(--main-color);
 }
 
 

@@ -10,9 +10,9 @@
           <span> STATION NAME DUMMY</span>
         </div>
         <div class="item-title points" #btn (click)="toggleDetails(myObject)">
-          <span></span>
-          <span></span>
-          <span></span>
+          <span>
+            <i class="fa-solid fa-ellipsis"></i>
+          </span>
         </div>
         <!-- ///// -->
         <div class="checkbox-container" #txt *ngIf="myObject.show">
@@ -39,7 +39,6 @@
     </div>
   </div>
 </div>
-
 <!--
 <span>Total Sales</span>
 <span>62,721 m <sup>3</sup></span>
