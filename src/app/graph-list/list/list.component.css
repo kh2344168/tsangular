@@ -76,12 +76,12 @@
   cursor: pointer;
   height: 24px;
 }
-.list .items-title .points svg {
+.list .items-title .points i ,  .list .items-title .points svg{
   font-size: 16px;
   padding: 5px;
 
 }
-.list .items-title .points:hover svg {
+.list .items-title .points:hover i ,.list .items-title .points:hover svg {
   background: #F4DBD4;
   text-align: center;
   border-radius: 3px;
